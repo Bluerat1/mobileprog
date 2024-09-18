@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, TextInput, Button, Text, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native'; // Import this hook
+import { useNavigation } from '@react-navigation/native';
 
 
 const RegisterScreen = () => {
-  const navigation = useNavigation(); // Hook for navigation
+  const navigation = useNavigation();
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleRegister = () => {
-    // Placeholder for registration logic
+    
    
   };
 
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#A8D08D', // Background color based on the image
+    backgroundColor: '#A8D08D',
     padding: 20,
   },
   input: {
